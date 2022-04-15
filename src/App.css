@@ -1,0 +1,118 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}.formNutrition{
+  display: flex;;
+  justify-content: center;
+  margin-top: 30px;
+}
+h2{
+  text-align: center;
+}
+input{
+  padding: 10px;
+  width: 30%;
+}
+table{
+  border:2px solid #FF6363;
+  margin-top: 20px;
+  width:350px;
+  height: 500px;
+}
+
+.table{
+  display: flex;
+  justify-content: center;
+}
+.tableRow{
+  display:flex;
+  justify-content: flex-start;
+  padding: 13px;
+}
+.calories{
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+}
+th{
+  text-decoration: underline;
+  margin-right:8px;
+}
+td{
+ margin-left:auto;
+}
+.header{
+  display: flex;
+  justify-content: center;
+}
+.formSearch{
+  display: flex;
+  justify-content: center;
+  margin:10px
+}
+.recipes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height:700px;
+  overflow:scroll;
+  margin:15px;
+  background-color:rgba(255, 255, 255, 0.8) ;
+
+}
+.listItem{
+  list-style: none;
+  padding:8px;
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.buttons{
+  display:flex;
+  justify-content: center;
+  margin:15px;
+}
+button{
+  padding: 10px;
+  margin:10px;
+  width:20%;
+  font-size: 18px;
+  background-color:rgba(255, 255, 255, 0.8);
+  border:none;
+}
+button:hover{
+  border:1px solid #FF6363;
+}
+.image{ 
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+}
+nav{
+  display:flex;
+  justify-content: center;
+  background-color:rgba(255, 255, 255, 0.8);
+}
+.link{
+  text-decoration: none;
+  font-size: 28px ;
+  color:black;
+  margin:20px;
+}
+.link:hover{
+  border-bottom:2px solid #FF6363;
+}
