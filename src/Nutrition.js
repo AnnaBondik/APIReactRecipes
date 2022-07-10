@@ -44,7 +44,7 @@ function Nutrition(){
     <div>
         <img className='image' src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2064&q=80"/>
     <form onSubmit={finalSubmit} className="formNutrition">
-        <input placeholder="ex: 1 oz tuna" value={myNutrition} onChange={findNutrition}></input>
+        <input className='example' placeholder="ex: 1 oz tuna" value={myNutrition} onChange={findNutrition}></input>
     </form>
     <div>
 
