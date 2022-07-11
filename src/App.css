@@ -79,6 +79,7 @@ td{
 .buttons{
   display:flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin:15px;
 }
 button{
@@ -119,4 +120,19 @@ nav{
 .example{
   font-size: 22px;
   font-weight: bold;
+}
+@media all and (max-width:500px){
+
+ .category{
+  margin:15px;
+  font-size: 15px;
+ }
+ .sand{
+  padding: 1px;
+  font-size:13px;
+  margin:15px;
+ }
+ .example{
+  font-size: 18px;
+ }
 }
